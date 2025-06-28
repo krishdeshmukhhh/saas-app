@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎓 AI-Powered LMS SaaS Platform
 
-## Getting Started
+Build and deploy a cutting-edge Learning Management System (LMS) from scratch featuring authentication, subscriptions, payments, and real-time AI voice tutoring.
 
-First, run the development server:
+This platform leverages modern tools like **Next.js**, **Supabase**, **Stripe**, and **Clerk**, alongside **Vapi** for AI voice interactions — enabling users to engage in conversational learning sessions on-demand.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🤖 Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 🎙️ **AI Voice Tutors** – Talk to intelligent AI tutors powered by Vapi
+- 🔐 **Authentication** – Secure sign-up/sign-in with Clerk (supports OAuth)
+- 💳 **Subscriptions & Payments** – Stripe-powered billing with dynamic plan management
+- 🧠 **Create Your Own Tutor** – Customize tutor personality, topic, and subject
+- 🗂️ **Bookmarks & Session History** – Save sessions and access them anytime
+- 📱 **Responsive Design** – Works across all devices with optimized UI
+- 🔍 **Powerful Search** – Find tutors by subject, topic, or keyword
+- 🔄 **Real-Time Sync** – Backed by Supabase for real-time updates
+- ♻️ **Reusable Components** – Modular codebase with maintainable architecture
+- 📈 **Error Tracking** – Integrated with Sentry for monitoring and debugging
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## ⚙️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+| Technology | Description |
+|------------|-------------|
+| [Next.js](https://nextjs.org) | Full-stack React framework |
+| [Supabase](https://supabase.com) | Real-time database, auth, storage |
+| [Stripe](https://stripe.com) | Payment processing & subscriptions |
+| [Clerk](https://clerk.dev) | Authentication and user management |
+| [Vapi](https://vapi.ai) | AI voice agents for conversations |
+| [Tailwind CSS](https://tailwindcss.com) | Utility-first CSS framework |
+| [shadcn/ui](https://ui.shadcn.com) | Accessible component library |
+| [TypeScript](https://www.typescriptlang.org) | Static typing for JavaScript |
+| [Zod](https://zod.dev) | Type-safe validation schemas |
+| [Sentry](https://sentry.io) | Error tracking and performance |
