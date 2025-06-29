@@ -33,5 +33,4 @@ This platform leverages modern tools like **Next.js**, **Supabase**, **Stripe**,
 | [Tailwind CSS](https://tailwindcss.com) | Utility-first CSS framework |
 | [shadcn/ui](https://ui.shadcn.com) | Accessible component library |
 | [TypeScript](https://www.typescriptlang.org) | Static typing for JavaScript |
-| [Zod](https://zod.dev) | Type-safe validation schemas |
 | [Sentry](https://sentry.io) | Error tracking and performance |
